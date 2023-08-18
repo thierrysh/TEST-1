@@ -1,10 +1,10 @@
 // C++ program to display 7 days of 3 weeks
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 
 int main() {
-    int weeks = 3, days_in_week = 7;
+    int weeks = 4, days_in_week = 7;
 
     for (int i = 1; i <= weeks; ++i) {
         cout << "Week: " << i << endl;
